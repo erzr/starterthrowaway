@@ -6,7 +6,9 @@
 [[plugins]]
 package = "netlify-plugin-cache-nextjs"
 
-[template]
+[template.environment]
+  UNIFORM_PUBLISH_TARGET = ""
+  NETLIFY_ACCESS_TOKEN = ""
   UNIFORM_API_KEY = ""
   UNIFORM_API_TOKEN = ""
   UNIFORM_API_URL = ""
@@ -14,7 +16,3 @@ package = "netlify-plugin-cache-nextjs"
   UNIFORM_API_SITENAME = ""
   UNIFORM_API_DEFAULT_LANGUAGE = "en"
   NPM_TOKEN = ""
-
-[template.environment]
-  UNIFORM_PUBLISH_TARGET = ""
-  NETLIFY_ACCESS_TOKEN = ""
